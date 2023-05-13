@@ -18,12 +18,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 .min-height-24 {
@@ -32,4 +29,18 @@ body {
 
 td {
   height: 25px;
+}
+
+.full-width {
+  width: 650px !important;
+  /* height: 842px !important; */
+}
+
+.gap-0 {
+  gap: 0.5rem
+}
+
+.edit-btn {
+  right: 0.5rem;
+
 }
